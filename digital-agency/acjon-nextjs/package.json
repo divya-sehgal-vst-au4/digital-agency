@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run build",
-    "start": "npm run dev",
+    "build": "next build",
+    "start": "next start",
     "clean": "rm -rf node_modules .next yarn.lock package-lock.json",
     "lint": "eslint"
   },
