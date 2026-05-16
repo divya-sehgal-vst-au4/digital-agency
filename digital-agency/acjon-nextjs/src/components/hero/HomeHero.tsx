@@ -14,18 +14,18 @@ const HomeHero = () => {
                             </div>
                             <div className="tp-hero-header-wrap z-index-1">
                                 <h3 className="tp-hero-title tp-char-animation">
-                                    <i>Acjon</i>{" "}
+                                    <i>Cognitive Monks</i>{" "}
                                     <span>
                                         <Image width={133} height={119} src="/assets/img/digital-agency/hero/hero-shape.png" alt="hero thumb" />
                                     </span>
-                                    <br />Digital Agency
+                                    {/* <br />Digital Agency */}
                                 </h3>
                             </div>
                             <div className="tp-hero-content-box">
                                 <div className="tp_fade_anim" data-delay=".5">
                                     <p>
-                                        We are a forward-thinking digital creative agency <br />
-                                        dedicated to crafting impactful brand.
+                                        More than consultants, <br />
+                                        we actively build your growth.
                                     </p>
                                 </div>
                                 <div className="tp-hero-btn tp_fade_anim" data-delay=".7">

@@ -64,9 +64,9 @@ export default function NavMenus({ bgClassName = "megamenu-white-bg" }: { bgClas
         >
           <Link href={menu.link}>
             {menu.title}
-            {menu.pluseIncon && (
+            {/* {menu.pluseIncon && (
               <span className="dropdown-btn"></span>
-            )}
+            )} */}
           </Link>
 
           {/* Mega Menu for Home */}

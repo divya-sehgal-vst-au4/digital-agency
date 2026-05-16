@@ -11,7 +11,7 @@ const HomeService = () => {
                     <div className="col-lg-4">
                         <div className="tp-service-heading mb-30 tp-fixed-title">
                             <span className="tp-section-subtitle tp-split-title">{`// latest Services`}</span>
-                            <h3 className="tp-section-title mb-45 tp-split-title">The services <br /> we provide make</h3>
+                            <h3 className="tp-section-title mb-45 tp-split-title">The systems <br /> we build create momentum, growth, and scalable digital businesses.</h3>
                             <div className="tp-service-btn tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">
                                 <Link className="tp-btn-green btn-black-bg tp-btn-anim btn-h-60" href="/service">
                                     <div className="tp-btn-text">See All Services </div>

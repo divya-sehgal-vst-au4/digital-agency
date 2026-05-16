@@ -13,7 +13,7 @@ const CopyrightSliderPart = () => {
                 {Array.from({ length: 5 }).map((_, i) => (
                     <SwiperSlide key={i}>
                         <div className="tp-copyright-slider-item d-flex align-items-center">
-                            <p>acjon Agency</p>
+                            <p>Cognitive Monks</p>
                             <span><StarIconFour /></span>
                         </div>
                     </SwiperSlide>

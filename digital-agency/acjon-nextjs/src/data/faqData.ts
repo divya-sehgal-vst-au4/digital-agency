@@ -13,37 +13,37 @@ export const faqData: FaqGroup = {
     common: [
         {
             id: 'collapseOne',
-            question: 'What services does your agency offer?',
+            question: 'What kind of businesses do you work with?',
             answer:
-                'From branding to web development, their team delivered a seamless experience. The attention to detail, responsiveness,',
+                'We work with startups, ecommerce brands, SaaS companies, and modern businesses looking to scale digitally.',
             show: true,
         },
         {
             id: 'collapseTwo',
-            question: 'Do you provide custom website solutions?',
+            question: 'Do you only build MVPs',
             answer:
-                'From branding to web development, their team delivered a seamless experience. The attention to detail, responsiveness,',
+                'No. We help businesses across the entire 0-100 journey including strategy, launch, growth, and optimization.',
             show: false,
         },
         {
             id: 'collapseThree',
-            question: 'Can you redesign my existing website?',
+            question: 'Can Cognitive Monks handle both product and growth?',
             answer:
-                'From branding to web development, their team delivered a seamless experience. The attention to detail, responsiveness,',
+                'Yes. Our approach combines product strategy, engineering, AI systems, and growth execution under one team.',
             show: false,
         },
         {
             id: 'collapseFour',
-            question: 'Do you offer digital marketing solutions?',
+            question: 'How fast can you launch an MVP?',
             answer:
-                'From branding to web development, their team delivered a seamless experience. The attention to detail, responsiveness,',
+                'Depending on complexity, most MVPs can be designed and launched within a few weeks.',
             show: false,
         },
         {
             id: 'collapseFive',
-            question: 'Is there a consultation fee?',
+            question: 'Do you provide AI integration services?',
             answer:
-                'From branding to web development, their team delivered a seamless experience. The attention to detail, responsiveness,',
+                'Yes. We build AI powered workflows, automation systems, internal tools,',
             show: false,
         },
     ],

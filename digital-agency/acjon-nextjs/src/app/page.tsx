@@ -1,13 +1,16 @@
-import { redirect } from "next/navigation";
+import { Metadata } from "next";
+import DigitalAgencyLayout from "./(homes)/digital-agency/layout";
+import DigitalAgencyHomeMain from "./(homes)/digital-agency/DigitalAgencyHomeMain";
 
+export const metadata: Metadata = {
+  title: "Cognitive Monks - Modern growth marketing agency",
+};
+
+/** `/` — swap `DigitalAgencyHomeMain` / layout imports here to use another home template later. */
 export default function RootPage() {
-  try {
-    redirect("/digital-agency");
-  } catch (error) {
-    // Next.js redirect intentionally throws an error
-    if (error instanceof Error && error.message.includes('NEXT_REDIRECT')) {
-      throw error; // Re-throw redirect error
-    }
-    throw error;
-  }
+  return (
+    <DigitalAgencyLayout>
+      <DigitalAgencyHomeMain />
+    </DigitalAgencyLayout>
+  );
 }

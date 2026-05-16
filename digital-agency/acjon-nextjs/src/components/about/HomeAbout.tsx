@@ -12,9 +12,12 @@ const HomeAbout = () => {
                         <div className="tp-about-us-heading mb-55">
                             <span className="tp-section-subtitle tp-split-title">{`// About Us`}</span>
                             <h3 className="tp-section-title tp-text-revel">
-                                The digital world is constantly <br />
+                                {/* The digital world is constantly <br />
                                 evolving,  we are at the forefront <br />
-                                of shaping its next chapter.
+                                of shaping its next chapter. */}
+                                From MVP to market leadership - <br />
+                                Cognitive Monks builds products, growth systems, <br />
+                                and digital infrastructure designed to scale with your business.
                             </h3>
                         </div>
                     </div>
@@ -53,10 +56,10 @@ const HomeAbout = () => {
                                     </div>
                                     <div className="tp-about-us-client-list mb-45 tp_fade_anim" data-delay=".5">
                                         <ul>
-                                            <li><span>the latest trends and technologies.</span></li>
-                                            <li><span>Partnering with clients to bring visions.</span></li>
-                                            <li><span>blending creativity with technology.</span></li>
-                                            <li><span>that exceeds expectations.</span></li>
+                                            <li><span>End to end product building from idea validation to scalable execution.</span></li>
+                                            <li><span>AI integrated systems focused on operational efficiency and faster growth</span></li>
+                                            <li><span>Growth first approach combining product, marketing, and technology seamlessly</span></li>
+                                            <li><span>Rapid execution cycles built for startups and modern digital businesses</span></li>
                                         </ul>
                                     </div>
                                     <div className="tp-about-us-btn tp_fade_anim" data-delay=".7" data-duration="1" data-fade-from="top" data-ease="bounce">

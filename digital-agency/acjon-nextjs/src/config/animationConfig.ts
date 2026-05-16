@@ -6,6 +6,7 @@ import { buttonTextAnim, charAnimation, fixedTitleAnim, fixedTitleAnim2, imageCl
 
 export const animationConfig: Record<string, (() => void)[]> = {
     //home page animation
+    "/": [buttonTextAnim, charAnimation, fixedTitleAnim, textScrollBgAnim, imageClipingEffect, initHoverBtnAnim],
     "/digital-agency": [buttonTextAnim, charAnimation, fixedTitleAnim, textScrollBgAnim, imageClipingEffect, initHoverBtnAnim],
     //digital marketing page
     "/digital-marketing": [buttonTextAnim, imageClipingEffect, initHoverBtnAnim, textScrollBgAnim],

@@ -9,7 +9,7 @@ const HomeFooterCopyright = () => {
                     <div className="col-lg-6">
                         <div className="tp-copyright-text">
                             <p>
-                                {getCurrentYear()} <Link href="https://themeforest.net/user/aqlova/">Aqlova ©</Link> All rights reserved
+                                {getCurrentYear()} <Link href="https://themeforest.net/user/aqlova/">Cognitive Monks ©</Link> All rights reserved
                             </p>
                         </div>
                     </div>
