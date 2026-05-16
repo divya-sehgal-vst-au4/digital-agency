@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "npm run dev",
     "clean": "rm -rf node_modules .next yarn.lock package-lock.json",
     "lint": "eslint"
   },
